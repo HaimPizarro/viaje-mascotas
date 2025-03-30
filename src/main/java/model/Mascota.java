@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class Mascota {
-    private Long id;            // Campo agregado para identificar de forma única la mascota
+    private Long id;
     private String nombre;
     private String raza;
     private String color;
